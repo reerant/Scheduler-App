@@ -2,7 +2,7 @@ The Scheduler App - created with React<br>
 - Displays meeting schedules for a fictional conference room.<br>
 - Works on desktops, tablets (best in landscape mode) and phones (best in portrait mode).<br>
 - Shows dynamic timeline schedule and progressbar for on-going meetings that are based on the current time. <br>
-- User can click on any meeting on the vertical timeline and it will open a info window which shows more info of the meeting.<br>
+- User can click on any meeting on the vertical timeline and it will open an info window which shows more info of the meeting.<br>
 - Data is in json-file.<br><br>
 
 Installation:<br>
