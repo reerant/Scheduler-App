@@ -30,7 +30,7 @@ class SchedulerApp extends React.Component {
     );
   }
 
-  //TARVIIKO??
+
   // componentWillUnmount() {
   //   clearInterval(this.interval);
   // }

@@ -60,7 +60,7 @@ div.progress {
     display: none !important;
   }
   .current-meeting {
-    height: 40%;
+    padding:10px;
     text-align: center;
     background: url("./img/bg-image.jpg") center center fixed;
     color: white;
@@ -70,12 +70,15 @@ div.progress {
     position: relative;
   }
   .h4-styling {
+    text-align: center;
     padding-top: 10px;
     padding-left: 10px;
   }
   .h3-styling {
+    text-align: center;
     padding-left: 10px;
   }
+  
 }
 
 .meeting-items {
