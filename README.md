@@ -3,8 +3,13 @@ The Scheduler App - created with React<br>
 - Works the best on desktops and tablets (when rotated horizontally).<br>
 - Shows dynamic timeline schedule and progressbar for on going meetings that are based on the current time. <br>
 - User can click on any meeting on the vertical timeline and it will then open a info window which shows more info of the meeting.<br>
-- Displays test-json data as meetings.
-<br><br>
+- Displays json-data for meetings.<br><br>
+
+Installation:<br>
+After cloning the project, run the following:<br>
+cd Scheduler-App<br>
+npm install<br>
+npm start<br><br><br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
