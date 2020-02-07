@@ -109,8 +109,8 @@ class SchedulerApp extends React.Component {
     if (!this.state.infoWindowOpen) {
       schedulerViewElement = (
         <Col sm={4} className="scheduler-view">
-          <h4>CONFERENCE ROOM</h4>
-          <h3>{currentDate} klo:{currentTime}</h3>
+          <h4 className="h4-styling">CONFERENCE ROOM</h4>
+          <h3 className="h3-styling">{currentDate} klo:{currentTime}</h3>
           <table id="table">
             <tbody>
               {/* creates timeline from hours-array in the form of table rows*/}

@@ -1,5 +1,6 @@
 .app {
   font-family: Lato, "Open Sans";
+
   position: fixed;
   top: 0;
   left: 0;
@@ -52,6 +53,32 @@ div.progress {
   height: 0.5rem;
   background-color: rgb(95, 95, 95);
 }
+
+/* Hides meeting-items when using mobile phone and puts more height to current-meeting*/
+@media only screen and (max-width: 600px) {
+  .meeting-items {
+    display: none !important;
+  }
+  .current-meeting {
+    height: 40%;
+    text-align: center;
+    background: url("./img/bg-image.jpg") center center fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .h4-styling{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .h3-styling{
+  
+    padding-left: 10px;
+  }
+}
+
 
 .meeting-items {
   width: 100%;
