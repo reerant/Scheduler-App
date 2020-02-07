@@ -12,11 +12,11 @@ function Scheduler(props) {
   if (props.meetingInfo.StartTime === props.time) {
     return (
       <td
-        onClick={props.click}
+        onClick={() => props.click(props.meetingInfo)}
         className="td-info"
         rowSpan={getRowSpan(props.meetingInfo.Duration)}
       >
-        <div>
+        <div style={{ cursor: "pointer" }}>
           {props.meetingInfo.Subject}, {props.meetingInfo.Organizer}
         </div>
       </td>

@@ -9,11 +9,11 @@
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Participants": [
       {
-        "Name": "Jon Doe",
+        "Name": "James H",
         "Title": "Art Director"
       },
       {
-        "Name": "Jane Doe",
+        "Name": "Maria M",
         "Title": "CTO"
       }
     ]
@@ -28,11 +28,11 @@
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Participants": [
       {
-        "Name": "Jon Doe",
+        "Name": "Stephany W",
         "Title": "Art Director"
       },
       {
-        "Name": "Jane Doe",
+        "Name": "Jessica S",
         "Title": "CTO"
       }
     ]
@@ -42,16 +42,16 @@
     "Subject": "Weekly Sales",
     "Organizer": "Jane Doe",
     "StartTime": "10:30",
-    "EndTime": "11:30",
-    "Duration": 60,
+    "EndTime": "12:00",
+    "Duration": 90,
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Participants": [
       {
-        "Name": "Jon Doe",
+        "Name": "Laura J",
         "Title": "Art Director"
       },
       {
-        "Name": "Jane Doe",
+        "Name": "Ross G",
         "Title": "CTO"
       }
     ]
@@ -60,17 +60,17 @@
     "id": 4,
     "Subject": "Marketing Strategy Planning",
     "Organizer": "Jon Doe",
-    "StartTime": "16:00",
-    "EndTime": "17:30",
-    "Duration": 90,
+    "StartTime": "12:30",
+    "EndTime": "14:30",
+    "Duration": 120,
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Participants": [
       {
-        "Name": "Jon Doe",
+        "Name": "William T",
         "Title": "Art Director"
       },
       {
-        "Name": "Jane Doe",
+        "Name": "Evelyn A",
         "Title": "CTO"
       }
     ]
@@ -79,17 +79,17 @@
     "id": 5,
     "Subject": "Coding Workshop",
     "Organizer": "Jane Doe",
-    "StartTime": "13:30",
-    "EndTime": "14:30",
+    "StartTime": "15:00",
+    "EndTime": "16:00",
     "Duration": 60,
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Participants": [
       {
-        "Name": "Jon Doe",
+        "Name": "Jackson D",
         "Title": "Art Director"
       },
       {
-        "Name": "Jane Doe",
+        "Name": "Avery K",
         "Title": "CTO"
       }
     ]
@@ -97,19 +97,99 @@
 
   {
     "id": 6,
-    "Subject": "Mini Meeting",
+    "Subject": "Testing Meeting",
     "Organizer": "Jon Doe",
-    "StartTime": "21:00",
-    "EndTime": "21:30",
+    "StartTime": "16:00",
+    "EndTime": "16:30",
     "Duration": 30,
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Participants": [
       {
-        "Name": "Jon Doe",
+        "Name": "Mason O",
         "Title": "Art Director"
       },
       {
-        "Name": "Jane Doe",
+        "Name": "Jennifer C",
+        "Title": "CTO"
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "Subject": "Digital Strategy",
+    "Organizer": "Jane Doe",
+    "StartTime": "17:30",
+    "EndTime": "19:00",
+    "Duration": 90,
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Participants": [
+      {
+        "Name": "Alex F",
+        "Title": "Art Director"
+      },
+      {
+        "Name": "Harper E",
+        "Title": "CTO"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "Subject": "C-Suite Meeting",
+    "Organizer": "Jon Doe",
+    "StartTime": "19:00",
+    "EndTime": "20:30",
+    "Duration": 90,
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Participants": [
+      {
+        "Name": "Everly T",
+        "Title": "Art Director"
+      },
+      {
+        "Name": "Ella E",
+        "Title": "CTO"
+      }
+    ]
+  },
+
+  {
+    "id": 9,
+    "Subject": "Fun Workshop",
+    "Organizer": "Jane Doe",
+    "StartTime": "20:30",
+    "EndTime": "21:30",
+    "Duration": 60,
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Participants": [
+      {
+        "Name": "Jon K",
+        "Title": "Art Director"
+      },
+      {
+        "Name": "Jane R",
+        "Title": "CTO"
+      }
+    ]
+  },
+
+
+  {
+    "id": 10,
+    "Subject": "Mini meeting",
+    "Organizer": "Jon Doe",
+    "StartTime": "22:30",
+    "EndTime": "23:30",
+    "Duration": 60,
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Participants": [
+      {
+        "Name": "Marcus L",
+        "Title": "Art Director"
+      },
+      {
+        "Name": "Lisa B",
         "Title": "CTO"
       }
     ]

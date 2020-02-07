@@ -9,6 +9,34 @@
   overflow: auto;
 }
 
+
+/* Hides meeting-items when using mobile phone and puts more height to current-meeting*/
+@media only screen and (max-width: 700px) {
+  .meeting-items {
+    display: none !important;
+  }
+  .current-meeting {
+    padding:10px;
+    text-align: center;
+    background: url("./img/bg-image.jpg") center center fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .h4-styling {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .h3-styling {
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+}
+
 .start-view {
   position: fixed;
   top: 0;
@@ -54,32 +82,6 @@ div.progress {
   background-color: rgb(95, 95, 95);
 }
 
-/* Hides meeting-items when using mobile phone and puts more height to current-meeting*/
-@media only screen and (max-width: 600px) {
-  .meeting-items {
-    display: none !important;
-  }
-  .current-meeting {
-    padding:10px;
-    text-align: center;
-    background: url("./img/bg-image.jpg") center center fixed;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-  }
-  .h4-styling {
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
-  .h3-styling {
-    text-align: center;
-    padding-left: 10px;
-  }
-  
-}
 
 .meeting-items {
   width: 100%;
@@ -138,4 +140,8 @@ table {
 
 .info-meeting-description {
   padding: 20px;
+}
+
+.h3-styling {
+  padding-bottom: 20px;
 }

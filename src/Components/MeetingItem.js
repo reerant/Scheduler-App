@@ -1,7 +1,8 @@
 import React from "react";
 import { Col } from "react-bootstrap/";
 
-function MeetingItems(props) {
+
+function MeetingItem(props) {
   return (
     <Col sm={4} className="meeting-item">
       <div>
@@ -12,4 +13,4 @@ function MeetingItems(props) {
     </Col>
   );
 }
-export default MeetingItems;
+export default MeetingItem;
