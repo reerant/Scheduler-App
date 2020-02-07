@@ -69,16 +69,14 @@ div.progress {
     justify-content: center;
     position: relative;
   }
-  .h4-styling{
+  .h4-styling {
     padding-top: 10px;
     padding-left: 10px;
   }
-  .h3-styling{
-  
+  .h3-styling {
     padding-left: 10px;
   }
 }
-
 
 .meeting-items {
   width: 100%;
@@ -117,9 +115,6 @@ div.progress {
 table {
   border-spacing: 10px;
   border-collapse: separate;
-}
-
-.item-open {
 }
 
 .info-meeting-name {
